@@ -22,6 +22,7 @@ export default {
       },
       backgroundImage: {
         "hero": "url('/assets/images/hero-bg.webp')",
+        "hero-sm": "url('/assets/images/hero-sm-bg.webp')",
       }
     },
   },

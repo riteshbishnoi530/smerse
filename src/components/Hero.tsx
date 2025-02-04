@@ -3,12 +3,13 @@ import React from "react";
 import Image from "next/image";
 import heroImg from "../../public/assets/images/hero-img.webp";
 import Header from "./Header";
+import CustomButton from "@/components/common/CustomButton";
 
 const Hero = () => {
   return (
-    <div className="bg-hero bg-cover bg-center bg-no-repeat">
+    <div className="bg-hero max-sm:bg-hero-sm bg-cover bg-center bg-no-repeat">
       <Header />
-      <div className="pt-[52px] pb-[50px] flex justify-center items-center flex-col px-3.5 max-lg:pb-[105px] max-lg:pt-[79px] max-md:pt-[113px] max-md:pb-[85px]">
+      <div className="pt-[152px] pb-[50px] flex justify-center items-center flex-col px-3.5 max-lg:pb-[105px] max-lg:pt-[179px] max-md:pt-[163px] max-md:pb-[85px]">
         <Image
           className="max-lg:w-[388px] max-md:w-[256px]"
           width={404}
@@ -27,10 +28,9 @@ const Hero = () => {
         <p className="text-4xl leading-custom-xl text-white max-w-[637px] mx-auto text-center pt-2.5 tracking-[2px] max-md:text-xl">
           FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE
         </p>
-        <button className="py-4 px-7 bg-gradient-to-t to-light-purple via-light-pink from-light-orange text-white text-xl font-extrabold tracking-[2px] leading-6 rounded-lg mt-11 hover:bg-gradient-to-bl max-md:mt-20">
-          Get Started
-        </button>
+        <CustomButton btn="Learn More" myClass="mt-11 max-md:mt-20 !py-4 !px-6"/>
       </div>
+      <div className="w-full h-10 bg-gradient-to-t to-light-purple via-light-pink from-light-orange"></div>
     </div>
   );
 };

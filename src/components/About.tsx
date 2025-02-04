@@ -6,10 +6,10 @@ import aboutNft from '../../public/assets/images/about-nft.webp'
 function About() {
     return (
         <div className='px-4 relative pt-[189px] pb-[272px] max-xl:py-16 max-md:py-0'>
-            <div className='container mx-auto flex max-xl:flex-col gap-5'>
+            <div className='container mx-auto flex max-xl:flex-col max-lg:gap-8'>
                 <div className='relative z-10'>
-                    <div className="relative">
-                        <h2 className="mt-8 text-5xl font-black text-white tracking-[6px] relative z-10 leading-custom-md max-md:text-4xl max-md:mt-20 ">
+                    <div className="relative mb-7 max-md:mb-5 max-sm:mb-9">
+                        <h2 className="mt-8 text-5xl font-black text-white tracking-[6px] relative z-10 leading-custom-md max-md:text-4xl max-md:mt-24 max-sm:mt-[61px] ">
                             About Us
                         </h2>
                         <span className="absolute inset-0 text-5xl max-md:text-4xl leading-custom-md font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] top-[-3%]">
@@ -23,7 +23,7 @@ function About() {
                         </div>
                     ))}
                 </div>
-                <Image className=' max-w-[954px] xl:absolute top-0 right-0 w-full mx-auto' src={aboutNft} alt="about img" />
+                <Image className=' max-w-[954px] xl:absolute top-[52px] right-0 w-full mx-auto' src={aboutNft} alt="about img" />
             </div>
         </div>
     )
