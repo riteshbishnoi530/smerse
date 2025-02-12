@@ -18,7 +18,8 @@ export default {
         "light-purple":"#952FFE",
         "light-pink":"#C641C6",
          "light-orange":"#FF676B",
-         "dark-blue":"#0A0A2B"
+         "dark-blue":"#0A0A2B",
+         "off-grey": "#161636"
       },
       backgroundImage: {
         "hero": "url('/assets/images/hero-bg.webp')",
