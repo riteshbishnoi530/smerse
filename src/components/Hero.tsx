@@ -28,7 +28,7 @@ const Hero = () => {
         <p className="text-4xl leading-custom-xl text-white max-w-[637px] mx-auto text-center pt-2.5 tracking-[2px] max-md:text-xl">
           FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE
         </p>
-        <CustomButton btn="Get Started" myClass="mt-11 max-md:mt-20 !py-4 !px-6"/>
+        <CustomButton btn="Get Started" myClass="mt-11 max-md:mt-20 !py-4 !px-[22px] max-sm:!py-[10px] max-sm:!px-[14px]"/>
       </div>
       <div className="w-full h-10 bg-gradient-to-t to-light-purple via-light-pink from-light-orange"></div>
     </div>
