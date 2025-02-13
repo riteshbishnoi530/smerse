@@ -14,8 +14,9 @@ export const Vision = () => {
                         <div className='bg-gradient-to-b from-light-purple via-light-pink to-light-orange p-[1px] rounded-lg group'>
                             <div key={i} className='relative h-full max-w-[367px] max-[806px]:max-w-[500px] min-h-[365px] bg-off-grey px-7 rounded-lg pt-[90px] pb-8 group-hover:bg-transparent transition-all duration-300 ease-linear'>
                                 <div className='absolute top-[-50px] left-1/2 -translate-x-1/2 rounded-full w-fit bg-gradient-to-b from-light-purple via-light-pink to-light-orange p-[1px] flex items-center justify-center'>
-                                    <div className='bg-off-grey rounded-full size-24 flex items-center justify-center group-hover:bg-transparent transition-all duration-300 ease-linear'>
-                                        <p className='text-4xl font-extrabold text-white'>{item.id}</p>
+                                    <div className='relative bg-off-grey rounded-full size-24 flex items-center justify-center group-hover:bg-transparent transition-all duration-300 ease-linear'>
+                                        <p className='relative z-10 text-4xl font-extrabold text-white'>{item.id}</p>
+                                        <p className='absolute top-[49%] bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent left-[49%] -translate-x-1/2 -translate-y-1/2 text-4xl font-extrabold z-[1px]'>{item.id}</p>
                                     </div>
                                 </div>
                                 <p className='text-center text-white leading-[168%]'>{item.description}</p>
