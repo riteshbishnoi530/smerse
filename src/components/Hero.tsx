@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="pt-8 text-8xl font-black text-white tracking-[6px] relative z-10 leading-custom-md max-md:text-[40px] max-md:pt-[108px]">
             SMERSE
           </h1>
-          <span className="absolute inset-0 text-8xl max-md:text-[40px] leading-custom-md font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] top-[23.5%] -translate-x-0.5 max-md:top-[70%]">
+          <span className="absolute inset-0 text-8xl max-md:text-[40px] leading-custom-md font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] top-[26.5%] -translate-x-0.5 max-md:top-[74%]">
             SMERSE
           </span>
         </div>
