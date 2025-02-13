@@ -2,7 +2,7 @@ import { AvatarsIcon, GiftIcon, NftIcon, RewardIcon } from '../utils/icons';
 export const HEADER_LIST = [
   {
     title: "Home",
-    link: "#home",
+    link: "/",
   },
   {
     title: "Project",

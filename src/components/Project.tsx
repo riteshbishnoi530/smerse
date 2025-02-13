@@ -5,7 +5,7 @@ import Heading from './common/Heading';
 
 const Project = () => {
     return (
-        <div className="px-4 pt-[130px] max-lg:pt-[140px] max-md:pt-[67px]">
+        <div id='project' className="px-4 pt-[130px] max-lg:pt-[140px] max-md:pt-[67px]">
             <div className="container flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10">
                 <div className="w-6/12 max-lg:w-full">
                     <Heading text='THE PROJECT' headingSpan='THE PROJECT' />

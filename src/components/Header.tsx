@@ -35,7 +35,7 @@ const Header = () => {
         }`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="#">
+        <Link href="/">
           <Image
             className="max-lg:size-[76px] max-md:size-[40px]"
             src="/assets/images/logo.webp"
@@ -53,38 +53,38 @@ const Header = () => {
             <ul key={i}>
               <li className="flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white">
                 <Link
-                  href=""
+                  href={obj.link}
                   onClick={closeNavbar}
-                  className="text-base text-white"
+                  className="text-base text-white max-lg:text-xl"
                 >
                   {obj.title}
                 </Link>
               </li>
             </ul>
           ))}
-          <CustomButton btn="Mint Now" myClass="lg:hidden"/>
+          <CustomButton myOnClick={closeNavbar} btn="Mint Now" myClass="lg:hidden" />
         </div>
-        <CustomButton btn="Mint Now" myClass="max-lg:hidden"/>
+        <CustomButton btn="Mint Now" myClass="max-lg:hidden" />
         <div
           onClick={toggleSidebar}
-          className="z-[21] flex-col gap-1 lg:hidden flex cursor-pointer"
+          className="z-[21] flex-col gap-2 max-sm:gap-1 lg:hidden flex cursor-pointer"
         >
           <span
             className={`${showSlide
-                ? "w-7 h-1 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded"
-                : "w-7 h-1 bg-white duration-300 ease-linear rounded"
+              ? "w-9 max-sm:w-4 h-1 bg-white rotate-45 translate-y-5 max-sm:translate-y-3 duration-300 ease-linear rounded"
+              : "w-9 max-sm:w-4 h-1 bg-white duration-300 ease-linear rounded"
               }`}
           ></span>
           <span
             className={`${showSlide
-                ? "w-7 h-1 bg-white opacity-0 duration-300 ease-linear"
-                : "w-7 h-1 bg-white duration-700 ease-linear rounded"
+              ? "w-9 max-sm:w-4 h-1 bg-white opacity-0"
+              : "w-9 max-sm:w-4 h-1 bg-white rounded"
               }`}
           ></span>
           <span
             className={`${showSlide
-                ? "w-7 h-1 bg-white -rotate-45 -translate-y-1 duration-300 ease-linear rounded"
-                : "w-7 h-1 bg-white duration-300 ease-linear rounded"
+              ? "w-9 max-sm:w-4 h-1 bg-white -rotate-45 -translate-y-1 duration-300 ease-linear rounded"
+              : "w-9 max-sm:w-4 h-1 bg-white duration-300 ease-linear rounded"
               }`}
           ></span>
         </div>

@@ -4,7 +4,7 @@ import Heading from './common/Heading'
 
 export const Vision = () => {
     return (
-        <div className='px-4'>
+        <div id='vision' className='px-4'>
             <div className="container mx-auto">
                 <div className='w-fit mx-auto'>
                     <Heading text='THE VISION' headingSpan='THE VISION' myClass='text-center' />
