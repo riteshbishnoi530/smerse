@@ -6,9 +6,9 @@ import Heading from './common/Heading'
 
 function About() {
     return (
-        <div className='px-4 relative pt-[189px] pb-[272px] max-xl:pb-16 max-xl:pt-24 max-md:py-16 max-w-[1920px] mx-auto'>
-            <div className='container mx-auto flex max-xl:flex-col max-lg:gap-8'>
-                <div className='relative z-10'>
+        <div className='relative pt-[189px] pb-[272px] max-xl:pb-16 max-xl:pt-24 max-md:py-16 max-w-[1920px] mx-auto'>
+            <div className='mx-auto flex max-xl:flex-col max-lg:gap-8'>
+                <div className='relative z-10 px-4'>
                 <Heading text='About Us' headingSpan='About Us'/>
                     {ABOUT_LIST.map((item, i) => (
                         <div key={i} className='flex gap-5 items-baseline mt-2'>
@@ -17,7 +17,7 @@ function About() {
                         </div>
                     ))}
                 </div>
-                <Image className=' max-w-[954px] xl:absolute top-[52px] right-0 w-full mx-auto' src={aboutNft} alt="about img" />
+                <Image className=' max-w-[954px] xl:absolute max-xl:max-w-full top-[52px] right-0 w-full' src={aboutNft} alt="about img" />
             </div>
         </div>
     )
