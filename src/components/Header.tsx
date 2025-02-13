@@ -55,7 +55,7 @@ const Header = () => {
                 <Link
                   href=""
                   onClick={closeNavbar}
-                  className="text-base font-semibold text-white"
+                  className="text-base text-white"
                 >
                   {obj.title}
                 </Link>
