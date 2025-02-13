@@ -77,8 +77,8 @@ const Header = () => {
           ></span>
           <span
             className={`${showSlide
-              ? "w-9 max-sm:w-4 h-1 bg-white opacity-0"
-              : "w-9 max-sm:w-4 h-1 bg-white rounded"
+              ? "w-9 max-sm:w-4 h-1 bg-white opacity-0 duration-300 ease-linear"
+              : "w-9 max-sm:w-4 h-1 bg-white rounded duration-300 ease-linear"
               }`}
           ></span>
           <span
