@@ -6,7 +6,7 @@ import Heading from './common/Heading'
 
 function About() {
     return (
-        <div className='px-4 relative pt-[189px] pb-[272px] max-xl:py-16 max-md:py-0 max-w-[1920px] mx-auto'>
+        <div className='px-4 relative pt-[189px] pb-[272px] max-xl:pb-16 max-xl:pt-24 max-md:py-16 max-w-[1920px] mx-auto'>
             <div className='container mx-auto flex max-xl:flex-col max-lg:gap-8'>
                 <div className='relative z-10'>
                 <Heading text='About Us' headingSpan='About Us'/>
